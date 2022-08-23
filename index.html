@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador Alura</title>
+    <link rel="stylesheet" href="js y css/css/resetcss.css">
+    <link rel="stylesheet" href="js y css/css/style.css">
+</head>
+<body>
+    <header>
+        <img src="svg alura/logo alura.svg" alt="Logo de Alura"> 
+    </header>
+   <main>
+        <section class="encriptar">
+            <textarea id="introducir-texto" class="textarea" type="mensaje" placeholder="Ingrese el texto para modificar aquí"></textarea>
+                 <div class="alerta">
+                    <p>Solo letras minúsculas , sin acentos ni simbolos</p>
+                 </div>
+                <div class="btn-conteiner">
+                  <button id="btn1" class="btn1">Encriptar!</button>
+                     <button id="btn2"class="btn2">Desencriptar!</button>
+                 </dSv>
+        </section>
+        <section class="tablero">
+            <div id="conteiner-resultado">
+                <h2 id="titulo-resultado"></h2>
+            </div>
+            <div id="arearesultado" class="conteinerImg">
+                <img src="svg alura/imagenno.svg" alt="noencuentra">
+                <p  class="text1"><strong>Ningún texto fue ingresado aun</strong></p>
+                <p class="text2">Ingresa el texto que deseas encriptar o desencriptar</p>
+            </div>
+            <textarea id="resultado" readonly></textarea>
+            <button id="btn-copy" class="btnCopy">Copiar</button>
+           
+        </section>
+</main> 
+<footer>Desarrollado por Christian Muñoz Ramirez 2022</footer>
+
+<script src="js y css/js/encriptador.js"></script>
+<script src="js y css/js/desencriptador.js"></script>
+<script src="js y css/js/copiar.js"></script>
+</body>
+</html>
+
